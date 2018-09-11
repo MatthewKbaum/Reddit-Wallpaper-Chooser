@@ -5,11 +5,11 @@ import ctypes
 import os
 
 #Setup crawler (?)
-reddit = praw.Reddit(client_id='tsGiwf_J6M00XQ',
-                                 client_secret='kJBYx6ep7tep-H8Qr7bCDXaxsSU',
-                                 password='Eminemboy46',
+reddit = praw.Reddit(client_id='xxxx',
+                                 client_secret='xxxx',
+                                 password='xxxx',
                                  user_agent='com.hotbackground.bot',
-                                 username='YourHomicidalApe')
+                                 username='xxxx')
 
 #Find the top 5 'hot' posts on r/EarthPorn
 earthporn = reddit.subreddit('EarthPorn').hot(limit=5)
